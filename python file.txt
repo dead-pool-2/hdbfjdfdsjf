@@ -8,7 +8,7 @@
 "+":read and write both
 
 line added by parth .................
-
+jndfgjdfgndfkgndfgsngsmg..................umang
 
 //some of the function that we can use
 f = open(filename,mode(from the above))
