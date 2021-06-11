@@ -1,0 +1,55 @@
+
+steps to follow : 
+
+1) Import the regex module with import re.
+2) Create a Regex object with the re.compile() function. (Remember to use a raw string.)
+3) Pass the string you want to search into the Regex object’s search() method. This returns a Match object.
+4) Call the Match object’s group() method to return a string of the actual matched text.
+
+note : if we have to apply special charecter then we have to add raw string by r'
+Regular expressions:
+
+
+|  : options in the strings
+() : we have group the some of options in regex
+?  : either this or this than match ex. batRegex = re.compile(r'Bat(wo)?man')
+*  : matching zero or more ex.batRegex = re.compile(r'Bat(wo)*man')
++  : matching one or more(at least one)\
+(expression){times}: specify exactly how many times the word has to match
+{1,4} : anything between 1 and 4
+
+findall() method : find all occurence of the expression
+
+character classes ::
+
+\d : any digits
+\D : any cherecter that is not numeric
+\w : letter + numeric + undescore charater
+\W : anything else than upper
+\s : space + tab + newline
+\S : anything else upper
+^  :  anything but not this(opposite)
+
+^ at the beggining : this exctly come at first
+$ at last : this exactly come at last
+
+wildcard character(.) : any charcter except from the new line
+
+
+.* : anything is selected in this 
+.*? : non greedy methd(select as less as possible)
+
+
+===================================
+we have to add second argument to compile function and to escape from the rules
+so for . if we have to include new line we
+ex. newlineRegex = re.compile('.*', re.DOTALL)
+
+for case insensitive 
+(re.I) can work
+
+========================================
+there is method called sub to replace the value 
+
+It has to arguments 
+ namesRegex.sub('CENSORED', 'Agent Alice gave the secret documents to Agent Bob.')

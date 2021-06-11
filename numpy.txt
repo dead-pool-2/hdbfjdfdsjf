@@ -1,0 +1,84 @@
+numpy library
+////////////////////////////////////
+scintific computing package
+numericl python
+
+list : Differant Datatypes , we can not perform any operation on list
+Array : same datatype , we can perform operation like addintion etc.
+
+create array :: 
+  
+  1) Array() : create arrays from list and tupple
+
+     syntex  : import numpy as np
+               np.array([1,2,3]) : 1D-array
+               np.array([1,2.0,3]) : upcasting : array return float value
+               np.array((1,2,3,4),dtype ="complex") : create array from tupple, dtype is used to chnage datatype
+               
+               
+  2) Arange() :  creates Array of evenly spaced values
+  
+     syntex : np.arange(1,10,steps to interval) : return array with value from 1 to 9
+ 
+  
+  3) Zeros() : creates Array Filled with Zeros
+
+     syntex : Zeros(shape,dtype=float,order='C)
+
+              np.zeros(5) : array([0.,0.,0.,0.,0.])
+              b = np.zeros((2,3)) or b = np.zeros([2,3]) : array([[0., 0., 0.],  [0., 0., 0.]])
+
+  4) Ones() : create array filled with 1
+
+     syntex : ones(shape,dtype=None,order='C')
+
+  5) Linspace() : create Array filled evenly spaced values
+  
+      syntex : np.linespace(start,stop,num=50,endpoint=True,retstep=false,dtype=None,axis=0)
+              
+                here num : numbers we want in array
+                     endpoint : describe the last element have to include or not
+                     retstep : differance between two values return
+
+  6) Eye() : Returns array filled with zeros except in the kth diagonl,whose values are equal to 1
+
+     syntex : np.eye(N,M=none,k=0,dtype=float,order='C')
+      
+               here n = row
+                    m = column
+                    k = diagonal which has to be 1 if -1 than lower part of main diagonal
+
+
+  7) Random() : Numpy random module
+                rand() : uniform distributed values
+                randn(): normally distributed values
+                ranf() : float values
+                randint(): int values
+  
+  
+ - Atributes of Array:
+
+       Dimension: We can create n dimension array using numpy,
+                  we can find the dimension of the array by (ndim)
+            syntex: a.ndim 
+     
+       Shape    : (rows,colu) rows
+
+
+
+/////////////////////////Describe NumPy Array in python /////////////////
+
+ 1)Measures of central tendency:
+       mean() : np.mean(arr)   
+       meadian() : np.median(arr)
+
+ 2)Measures of dispersion:
+       amin(): min from array
+       amax(): max from array
+       ptp() : return range of data
+       var() : return variance of data(sigma2)
+       std() : return standerd daviation
+      
+
+
+

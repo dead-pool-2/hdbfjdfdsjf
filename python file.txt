@@ -1,0 +1,26 @@
+//modes
+"r":open file for reading-default
+"w": open file for writing
+"x" : create the file if not exists
+"a": add more content to the file(append)
+"t": text mode-default
+"b": binary mode
+"+":read and write both
+
+//some of the function that we can use
+f = open(filename,mode(from the above))
+content = f.read(if 3 then only 3 char)//to read the file
+f.close()
+readline() : line by line print thay
+readlines() : store the all lines as list
+
+//////////////////////////
+write mode
+pass second argument as w
+/////////////////////////////
+read and write mode
+r+ : read and write\
+
+/////////////////////////////
+f.tell() : function tells that the pointer is at which position
+f.seek() : again go to given position and print 
