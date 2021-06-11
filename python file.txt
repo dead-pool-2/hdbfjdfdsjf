@@ -10,6 +10,10 @@
 line added by parth .................
 jndfgjdfgndfkgndfgsngsmg..................umang
 
+
+vrfjbksd xjkb
+vsbkj  n vsd
+
 //some of the function that we can use
 f = open(filename,mode(from the above))
 content = f.read(if 3 then only 3 char)//to read the file
