@@ -7,6 +7,9 @@
 "b": binary mode
 "+":read and write both
 
+line added by parth .................
+
+
 //some of the function that we can use
 f = open(filename,mode(from the above))
 content = f.read(if 3 then only 3 char)//to read the file
