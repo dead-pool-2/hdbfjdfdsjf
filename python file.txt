@@ -31,3 +31,5 @@ r+ : read and write\
 /////////////////////////////
 f.tell() : function tells that the pointer is at which position
 f.seek() : again go to given position and print 
+
+f.seekg(n, ios::beg) : to move pointer in nth location from starting
