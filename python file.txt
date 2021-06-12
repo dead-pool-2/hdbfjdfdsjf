@@ -7,12 +7,6 @@
 "b": binary mode
 "+":read and write both
 
-line added by parth .................
-jndfgjdfgndfkgndfgsngsmg..................umang
-
-
-vrfjbksd xjkb
-vsbkj  n vsd
 
 //some of the function that we can use
 f = open(filename,mode(from the above))
